@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoPass Popup</title>
+    <link rel="stylesheet" href="popup.css"> <!-- We'll create this stylesheet -->
+    <style>
+        /* Basic styling for the popup until popup.css is more fleshed out */
+        body {
+            font-family: sans-serif;
+            width: 350px; /* A common width for popups */
+            min-height: 200px;
+            padding: 10px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #root { /* This is where our React app will mount */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <!-- React will render its content here -->
+        Loading CryptoPass...
+    </div>
+    <!-- This script will load our React app -->
+    <!--script src="popup.js"></script-->
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
