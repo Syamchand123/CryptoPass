@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="[LINK_TO_YOUR_128x128_ICON_IN_ASSETS_FOLDER]" alt="CryptoPass Logo" width="160"/>
+  <img src="[CryptoPass/asserts/icon128.png]" alt="CryptoPass Logo" width="160"/>
 </p>
 
 <h1 align="center">CryptoPass</h1>
